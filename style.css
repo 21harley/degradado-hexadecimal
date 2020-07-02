@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    color: white;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items:center;
+}
+.boton{
+    color: black;
+    height: 50px;
+    width: 100px;
+}
+.posicion{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    height: 40px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.interno{
+    height: 25px;
+}
+
+.eliminar{
+    color: white;
+    background: none;
+    border-style: none;
+    height: 100%;
+    width: 10%;
+    transition: 0.4s;
+    border-radius: 0 25px 25px 0;
+}
+
+.eliminar:hover{
+    color: white;
+    border:10px solid red;
+    background-color:red;
+    border-radius: 0 25px 25px 0;
+}
